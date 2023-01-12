@@ -1,8 +1,8 @@
 import cv2
 #reading image
-img = cv2.imread( <image location> )
+img = cv2.imread("<image path>") # add path to your image
 
-scale_percent = 80 # percent of original size
+scale_percent = 80
 width = int(img.shape[1] * scale_percent / 400)
 height = int(img.shape[0] * scale_percent / 400)
 dim = (width, height)
