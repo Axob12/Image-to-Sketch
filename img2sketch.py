@@ -10,7 +10,6 @@ resize = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
 
 #converting BGR image to grayscale
 gray_image = cv2.cvtColor(resize, cv2.COLOR_BGR2GRAY)
-
 #image inversion
 inverted_image = 255 - gray_image
 
